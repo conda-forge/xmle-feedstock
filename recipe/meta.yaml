@@ -1,6 +1,6 @@
 {% set name = "xmle" %}
-{% set version = "0.1.19" %}
-{% set checksum = "8b8b6b77e5badbbeb7e786d67a1a44ed1b3e08e48e4042708f81fc728757d8fb" %}
+{% set version = "0.1.20" %}
+{% set checksum = "27658f24e1c1da44589d7f2f1de7463140cbd911d9a5d1046b4fdaf957a07068" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'xml extension for generating neatly formatted HTML output from a variety of object types'
+  summary: xml extension for generating neatly formatted HTML output from a variety of object types
   dev_url: https://github.com/jpn--/xmle
 
 extra:
