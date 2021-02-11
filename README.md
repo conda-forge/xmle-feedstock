@@ -5,11 +5,11 @@ Home: https://github.com/jpn--/xmle
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xmle-feedstock/blob/master/LICENSE.txt)
 
 Summary: xml extension for generating neatly formatted HTML output from a variety of object types
 
-
+Development: https://github.com/jpn--/xmle
 
 Current build status
 ====================
