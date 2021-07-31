@@ -1,6 +1,6 @@
 {% set name = "xmle" %}
-{% set version = "0.1.21" %}
-{% set checksum = "df69da574168a39b01fd86906f292a27724e920d620954e59e89d428038b0c97" %}
+{% set version = "0.1.22" %}
+{% set checksum = "e745baebdd09c05678096be5d831824e7dd8ca4ed632bdb14863af4880aeadfb" %}
 
 package:
   name: {{ name|lower }}
@@ -17,10 +17,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - pandas
 
 test:
