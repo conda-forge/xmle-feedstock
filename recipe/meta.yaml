@@ -1,6 +1,6 @@
 {% set name = "xmle" %}
-{% set version = "0.1.24" %}
-{% set checksum = "b557c041afef38060de6dcd90f2f5fb205572be51a28df7bde82dce0fd101fc4" %}
+{% set version = "0.1.26" %}
+{% set checksum = "776442d84777b6fd793a699a588b721a664404812d81dd3bfcdf67276c24d0eb" %}
 
 package:
   name: {{ name|lower }}
