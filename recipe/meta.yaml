@@ -1,6 +1,6 @@
 {% set name = "xmle" %}
-{% set version = "0.1.26" %}
-{% set checksum = "776442d84777b6fd793a699a588b721a664404812d81dd3bfcdf67276c24d0eb" %}
+{% set version = "0.1.27" %}
+{% set checksum = "03a29c8aae7bca0852b1491be8540f24742944acf7798a87d919980935607e25" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   script_env:
-    - SETUPTOOLS_SCM_PRETEND_VERSION={{version}}
+    - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
